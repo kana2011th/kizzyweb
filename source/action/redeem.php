@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 if($_POST['redeem'] == '')
    die('Redeem');
 session_start();

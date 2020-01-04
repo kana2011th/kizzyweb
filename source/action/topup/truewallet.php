@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 	if($_POST['username'] == '')
 		die('username');
 	if($_POST['TransactionID'] == '' || !is_numeric($_POST['TransactionID']) || strlen($_POST['TransactionID']) != 14)
@@ -76,4 +75,3 @@ error_reporting(0);
 		}
 	}
 	die('404');
-?>

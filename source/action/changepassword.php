@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 if($_POST['oldpass'] == '' && $_POST['newpass'] == '')
 	die('Parameter');
 session_start();

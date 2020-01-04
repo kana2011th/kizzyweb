@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 	if($_POST['username'] == '')
 		die('username');
 	if($_POST['card'] == '' || !is_numeric($_POST['card']) || strlen($_POST['card']) != 14)
@@ -62,8 +61,7 @@ error_reporting(0);
 		var_dump($tw->Login());
 		echo '<br><br>';
 		var_dump($tw->TopupCashcard());
-		
+
 	}
 	else
 		die('error');
-?>

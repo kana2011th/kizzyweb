@@ -36,4 +36,3 @@ $config = [
 	'logo' => config($pdo, 'logo'),
 	'background' => config($pdo, 'background')
 ];
-?>

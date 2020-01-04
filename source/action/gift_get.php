@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 if($_POST['id'] == '' || !is_numeric($_POST['id']))
    die('Gift');
 include '../config.php';

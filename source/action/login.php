@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 if($_POST['username'] == '' && $_POST['password'] == '')
 	die('Parameter');
 if(!(preg_match('/^[a-zA-Z0-9_\s]+$/', $_POST['username'])))

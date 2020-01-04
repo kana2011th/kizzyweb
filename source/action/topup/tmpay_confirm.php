@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 $amount = array("0.00", "20.00", "50.00", "90.00", "150.00", "300.00", "500.00", "1000.00");
 if($_GET['transaction_id'] == '' || strlen($_GET['transaction_id']) != 10 || $_GET['password'] == '' || !is_numeric($_GET['password']) || strlen($_GET['password']) != 14 || $_GET['real_amount'] == '' || !in_array($_GET['real_amount'], $amount) || $_GET['status'] == '' || !is_numeric($_GET['status']) || $_GET['status'] <= 0 || $_GET['status'] >= 6)
 	die('Parameter Error.');

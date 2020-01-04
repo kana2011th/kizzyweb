@@ -1,5 +1,4 @@
 <?php
-error_reporting(0);
 session_start();
 include '../../api/KiznickAPI.php';
 $KiznickAPI = new KiznickAPI();
@@ -13,4 +12,3 @@ $query = $create->execute(array($_POST['name'], $_POST['ip'], $_POST['rport'], $
 if(!$query)
 	die('error');
 die('success');
-?>
