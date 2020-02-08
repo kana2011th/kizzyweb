@@ -231,6 +231,7 @@ EOL;
     //move file up two directory ;-;
     recurse_copy("kizzyweb-master/source", './');
     @unlink("update.zip");
+    @unlink("kizzyweb-master");
     die('success');
   } else
     die('zip');
